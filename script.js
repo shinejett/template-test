@@ -41,7 +41,7 @@ async function getQuote() {
         }
         quoteText.innerText = data.quoteText;
         // Stop loader , show code
-        complete();
+    complete();
     } catch (error) {
         getQuote();
         console.error("Whoops, it's trying");
